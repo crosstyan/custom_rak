@@ -33,6 +33,11 @@ cp global_conf.json local_conf.json # no idea why both config files are needed
 ```
 
 - [Listen Before Talk – The Key to Good LoRaWAN® Communication](https://news.rakwireless.com/listen-before-talk-the-key-to-good-lorawan-r-communication/)
-- [Semtech UDP packet-forwarder](https://www.chirpstack.io/gateway-bridge/backends/semtech-udp/)
+- [Semtech UDP packet-forwarder](https://www.chirpstack.io/gateway-bridge/backends/semtech-udp/) on how to configure it.
 
 ![Packet Forwarder](figure/pkt_frd.png)
+
+## Note
+
+Maybe I should switch to [ChirpStack Concentratord](https://www.chirpstack.io/docs/chirpstack-concentratord/index.html)?
+Looks like it also utilizes `libloragw` and it's written in Rust.
