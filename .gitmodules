@@ -1,3 +1,6 @@
 [submodule "sx1302_hal"]
 	path = sx1302_hal
 	url = https://github.com/crosstyan/sx1302_hal
+[submodule "chirpstack-utils-rust"]
+	path = chirpstack-utils-rust
+	url = https://github.com/crosstyan/chirpstack-utils-rust
